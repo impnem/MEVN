@@ -6,7 +6,7 @@
 const a = (c = "네이버") => {
     return new Promise((resolve, reject) => {
         //비동기 함수로직
-        throw new Error("[큰돌에러]")
+        throw new Error("[큰돌에러]")   // 1번)
         reject(new Error("[큰돌에러]"))
         reject("[큰돌에러]")
         setTimeout(() => {
